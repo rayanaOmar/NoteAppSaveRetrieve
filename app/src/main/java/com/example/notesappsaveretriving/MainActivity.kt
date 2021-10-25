@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
             recyclerView.adapter = RVadapter(this, getNote())
             recyclerView.layoutManager = LinearLayoutManager(this)
+
         }
 
 
